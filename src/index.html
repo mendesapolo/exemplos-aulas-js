@@ -5,31 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        body{
-            padding: 0;
-            margin: 0;
-            background-color: #c6c6c6;
-        }
-        div#content{
-            display: block;
-            width: 70%;
-            min-height: 400px;
-            margin: 0 auto;
-            margin-top: 100px;
-            padding: 20px;
-            background-color: white;
-            border: 1px solid #666;
-            border-radius: 0.2rem;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
 </head>
 <body>
+
     <div id="content">
-        <p></p>
+       <div class="box" id="box1">box 1</div>
+
+       <div class="box" id="box2">box 2</div>
+
+       <div class="box" id="box3">box 3</div>
+
+        <div class="box" id="box4"> box 4</div>
+
+            
+            
+            
+    <form action="scripts/objects.js">
+        <input type="text" id="txtLang" placeholder="Entre com um valor">
+
+        <select id="selTech">
+            <option value="Angular">Angular</option>
+            <option value="Adonis">Adonis</option>
+            <option value="Nest">Nest</option>
+            <option value="Vue">Vue</option>
+        </select>
+
+        
+        <input id="btnSend" type="submit" value="Enviar">
+    </form>
+    <a href="#">Vai pro google</a>
+
     </div>
-    
-    <script type="text/javascript" src="scripts/script.js"></script>
-    <script type="text/javascript" src="scripts/function.js"></script>
+
+    <script type="text/javascript" src="scripts/events.js"></script>
 </body>
 </html>
