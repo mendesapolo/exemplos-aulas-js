@@ -22,9 +22,10 @@ div#content {
 }
 
 div.box {
-    display: inline-block;
+    display: block;
     min-width: 50px;
     height: 50px;
+    float: left;
     margin: 5;
     border: 2px solid black;
     border-radius: 0.2rem;
